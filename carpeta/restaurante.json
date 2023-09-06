@@ -1,0 +1,88 @@
+[
+    {
+        "nombre": "Un Amor De Vegano",
+        "direccion": "Godoy Cruz 1819",
+        "telefono": "0303456",
+        "zona": "San Isidro",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "Gordo Vegano",
+        "direccion": "Echeverria 3078",
+        "telefono": "0303456",
+        "zona": "Belgrano",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "Casa Munay",
+        "direccion": "Gorriti 5996",
+        "telefono": "0303456",
+        "zona": "Palermo",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "Puerta",
+        "direccion": "Soler 4501",
+        "telefono": "0303456",
+        "zona": "CABA",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "Coma Veggie",
+        "direccion": "Nicaragua 5002",
+        "telefono": "0303456",
+        "zona": "Palermo",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "Seibo Bar",
+        "direccion": "Azcuenaga 1872",
+        "telefono": "0303456",
+        "zona": "Recoleta",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "JU",
+        "direccion": "Juramento 1665",
+        "telefono": "0303456",
+        "zona": "Villa Crespo",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "Amador ",
+        "direccion": "Cabrera 5991",
+        "telefono": "0303456",
+        "zona": "Palermo",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "Club De Cocineros COMO",
+        "direccion": "Garruchaga 1042",
+        "telefono": "0303456",
+        "zona": "Villa Crespo",
+        "imagen": "img1.jpg"
+    },
+
+    {
+        "nombre": "Lado V ",
+        "direccion": "Honduras 4969",
+        "telefono": "0303456",
+        "zona": "Palermo",
+        "imagen": "img1.jpg"
+    },
+    {
+        "nombre": "La Reverde",
+        "direccion": "Montevideo 40",
+        "telefono": "03034567",
+        "zona": "San Nicolas",
+        "imagen": "img1.jpg"
+    }
+]
