@@ -38,8 +38,8 @@ function mostrarResultados(restaurantes) {
     let descripcion = document.createElement('p');
 
     h1.innerText = restaurante.nombre;
-    img.setAttribute("src", restaurante.imagen);
-    img.setAttribute("width", "100%");
+    img.setAttribute("src", "imagenes/" + restaurante.imagen);
+    img.setAttribute("width", "50%");
     img.setAttribute("height", "30%");
 
     descripcion.textContent = restaurante.direccion;
