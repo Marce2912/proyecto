@@ -3,31 +3,31 @@ const resultado = document.getElementById('resultados');
 const input = document.getElementById('buscar-input');
 let restaurantes; 
 
-fetch("restaurante.json")
-  .then((resp) => resp.json())
-  .then((data) => {
-    restaurantes = data;
-  })
-  .catch((error) => {
-    console.error('Error al cargar los datos:', error);
-  });
+
+
 
 
 function buscarRestaurantes(zona) {
-  let restaurantesFiltrados = restaurantes.filter((restaurante) => {
-    let zonaTransformado = restaurante.zona.toLowerCase();
-    return zonaTransformado.includes(zona.toLowerCase());
-  });
-  return restaurantesFiltrados;
+  fetch("/restaurante?zona=" + zona)
+    .then((resp) => resp.json())
+    .then((data) => {
+      restaurantes = data;
+      mostrarResultados(data)
+    })
+    .catch((error) => {
+      console.error('Error al cargar los datos:', error);
+    });
 }
+
+
 
 buscador.addEventListener("submit", (event) => {
   event.preventDefault();
   let zona = input.value;
-  const restaurantesFiltrados = buscarRestaurantes(zona);
-  console.log(restaurantesFiltrados);
-  mostrarResultados(restaurantesFiltrados);
+  buscarRestaurantes(zona);
 });
+
+
 
 function mostrarResultados(restaurantes) {
   resultado.innerHTML = '';
@@ -50,6 +50,8 @@ function mostrarResultados(restaurantes) {
     resultado.appendChild(article);
   });
 }
+
+
 
 
 
